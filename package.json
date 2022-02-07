@@ -1,0 +1,27 @@
+{
+  "name": "modern-javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexckrueger/modern-javascript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexckrueger/modern-javascript/issues"
+  },
+  "homepage": "https://github.com/alexckrueger/modern-javascript#readme",
+  "dependencies": {
+    "chance": "^1.1.8",
+    "dayjs": "^1.10.7"
+  },
+  "devDependencies": {
+    "webpack": "^5.68.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
