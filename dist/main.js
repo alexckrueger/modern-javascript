@@ -15,7 +15,7 @@
   \******************/
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("/* global dayjs */\nvar dayjs = __webpack_require__(/*! dayjs */ \"./node_modules/dayjs/dayjs.min.js\");\n\nconsole.log(\"oi oi oi\");\nvar time = dayjs(\"2019-01-24\").daysInMonth();\nconsole.log(time);\n\nvar Chance = __webpack_require__(/*! chance */ \"./node_modules/chance/chance.js\");\nvar chance = new Chance();\nvar myRandomString = chance.string();\n\nconsole.log(myRandomString);\nconsole.log(chance.integer({ min: 0, max: 200 }));\nconsole.log(chance.falsy());\n\n\n//# sourceURL=webpack://modern-javascript/./index.js?");
+eval("/* global dayjs */\nvar dayjs = __webpack_require__(/*! dayjs */ \"./node_modules/dayjs/dayjs.min.js\");\n\nconsole.log(\"oi oi oi\");\nvar time = dayjs(\"2019-01-25\").format(\"DD/MM\");\nconsole.log(time);\n\nvar Chance = __webpack_require__(/*! chance */ \"./node_modules/chance/chance.js\");\n\nvar chance = new Chance();\nvar myRandomString = chance.string();\nconsole.log(myRandomString);\nconsole.log(chance.integer({\n  min: 0,\n  max: 200\n}));\nvar falsey = chance.falsy();\nconsole.log(\"What your wrote is \".concat(falsey, \"!\"));\nconsole.log(\"what is this error >:(\");\n\n//# sourceURL=webpack://modern-javascript/./index.js?");
 
 /***/ }),
 
